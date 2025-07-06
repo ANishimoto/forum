@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "dev": "node index.js --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,6 +19,7 @@
   "homepage": "https://github.com/ANishimoto/forum#readme",
   "description": "Forum estilo stack overflow",
   "dependencies": {
+    "dotenv": "17.0.0",
     "ejs": "3.1.10",
     "express": "5.1.0"
   }
